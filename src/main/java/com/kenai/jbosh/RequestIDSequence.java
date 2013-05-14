@@ -31,7 +31,7 @@ final class RequestIDSequence {
      * Maximum number of bits available for representing request IDs, according
      * to the XEP-0124 spec.s
      */
-    private static final int MAX_BITS = 53;
+    private static final int MAX_BITS = 40;
 
     /**
      * Bits devoted to incremented values.
